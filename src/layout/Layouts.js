@@ -14,7 +14,7 @@ const Layouts = () => {
       </header>
           <span>
         New Website is coming soon!{' '}
-        <a href="https://newwebsite.example.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://vishalviswanath.netlify.app/" target="_blank" rel="noopener noreferrer">
           Check it out here.
         </a>
       </span>

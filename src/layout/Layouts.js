@@ -12,6 +12,12 @@ const Layouts = () => {
       <header>
         <Header />
       </header>
+          <span>
+        New Website is coming soon!{' '}
+        <a href="https://newwebsite.example.com" target="_blank" rel="noopener noreferrer">
+          Check it out here.
+        </a>
+      </span>
       <section>
         <HeroSection />
         <Aboutme />

@@ -2,6 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import MainLayout from "./components/MainLayout";
 import Index from "./components/Index";
 
+
 function App() {
   return (
     <Routes>

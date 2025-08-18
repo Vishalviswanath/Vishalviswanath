@@ -1,12 +1,17 @@
 import { Outlet } from 'react-router-dom';
 import Navbar from './Navbar';
 import { FcLike } from 'react-icons/fc';
+import DotGrid from '../common/DotGrid';
 
 const MainLayout = () => {
   return (
     <>
       <Navbar />
+
+
+     
       <Outlet />
+
       <p
         className='footer'
         style={{

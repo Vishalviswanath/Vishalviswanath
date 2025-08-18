@@ -59,9 +59,6 @@
   }
 }
 
-
-
-
 body {
   margin: 0;
   padding: 0;
@@ -147,7 +144,6 @@ button:focus,
   box-shadow: inset 4px 4px 8px #c6a251, inset -4px -4px 8px #ffdb6d;
 }
 
-
 .nav:hover,
 .text-nav:hover {
   border: 0.05px solid var(--color7);
@@ -176,7 +172,6 @@ h1 {
   padding: 0;
 }
 
-
 .contact-wrapper {
   display: flex;
   justify-content: center;
@@ -185,9 +180,7 @@ h1 {
   flex-wrap: wrap;
   width: 100%;
   margin-bottom: 15px;
-
 }
-
 
 .leftside-card {
   text-align: right;
@@ -202,15 +195,11 @@ h1 {
   flex-direction: column;
   justify-content: space-between;
   gap: 15px;
-
 }
-
 
 .left-content {
   flex: 0 0 auto;
 }
-
-
 
 .google-maps {
   flex: 0 0 auto;
@@ -232,9 +221,6 @@ h1 {
   color: var(--color3);
 }
 
-
-
-
 .rightside-card {
   /* background: var(--color7); */
   padding: 20px;
@@ -249,7 +235,6 @@ h1 {
   box-shadow: inset 14.41px 14.41px 15px #2e1008,
     inset -14.41px -14.41px 15px #892f17; */
 }
-
 
 .contact-container {
   display: flex;
@@ -276,9 +261,7 @@ h1 {
   background: var(--color7);
   /* border: 1px solid var(--color3); */
   /* box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.08); */
-  box-shadow: inset 14px 14px 28px #49190c,
-    inset -14px -14px 28px #6d2512;
-  ;
+  box-shadow: inset 14px 14px 28px #49190c, inset -14px -14px 28px #6d2512;
 }
 
 .contact-form textarea {
@@ -288,8 +271,6 @@ h1 {
 }
 
 .contact-form button {
-
-
   background: var(--color3);
   box-shadow: inset 4px 4px 8px #c6a251, inset -4px -4px 8px #ffdb6d;
   cursor: pointer;
@@ -297,4 +278,10 @@ h1 {
 
 .contact-form button:hover {
   opacity: 0.9;
+}
+
+.split-parent div,
+.split-parent span {
+  display: inline !important;
+  /* white-space: pre; */
 }

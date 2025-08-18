@@ -2,6 +2,7 @@ import { useParams } from 'react-router-dom';
 import { pages } from '../common/data';
 import '../style/Index-module.css';
 import { motion } from 'framer-motion';
+import DotGrid from '../common/DotGrid';
 
 const Index = () => {
   const { path } = useParams();
@@ -22,12 +23,20 @@ const Index = () => {
   return (
     <section className='main-index'>
       <div className='content-wrapper'>
+
         <h1 className='page-label'>{page.label}</h1>
         <section className='page-description'>
-          {page.description.map((list, i) => (
-            <motion.div key={i}>{list}</motion.div>
-          ))}
+          {Array.isArray(page.description) ? (
+            page.description.map((list, i) => (
+              <motion.div key={i}>{list}</motion.div>
+            ))
+          ) : (
+            <motion.div>
+
+              {page.description}
+            </motion.div>)}
         </section>
+
       </div>
     </section>
   );

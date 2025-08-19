@@ -22,7 +22,8 @@ section {
   font-family: var(--font2);
   text-transform: uppercase;
   margin-right: 6%;
-  font-size: clamp(1.2rem, 4vw, 2rem);
+  font-size: 2rem;
+  /* font-size: clamp(1.2rem, 4vw, 2rem); */
   text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
   z-index: 2;
 }

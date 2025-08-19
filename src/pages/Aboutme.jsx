@@ -3,8 +3,9 @@ import React from 'react'
 const Aboutme = () => {
     return (
         <>
+
             <div
-                style={{ textAlign: 'center' }}
+                style={{ padding: "2rem" }}
             >
                 <p
                     style={{
@@ -61,6 +62,7 @@ const Aboutme = () => {
                     gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",
                     gap: "1.5rem",
                     width: "100%",
+                    padding: "2rem"
                 }}
             >
                 {[

@@ -6,7 +6,7 @@ const Aboutme = () => {
         <>
 
             <div
-                style={{ padding: "2rem", textIndent: "5em" }}
+                style={{ padding: "2rem", textIndent: "5em", }}
             >
                 <p
                     style={{
@@ -59,7 +59,7 @@ const Aboutme = () => {
             <div style={{ width: "100%", textAlign: "right", paddingRight: "2rem" }}>
 
                 <button style={{
-                    boxShadow: "none", padding: "10px 20px",
+                    boxShadow: "none", padding: "10px 20px", marginBottom: "40px"
 
                 }}> <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 3 }}>
 

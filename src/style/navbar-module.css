@@ -62,7 +62,8 @@ nav {
     outline: 5px solid var(--color7);
     outline-offset: -10px;
     border-radius: 20px;
-    transition: all 2s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    overflow: hidden;
   }
 }
 

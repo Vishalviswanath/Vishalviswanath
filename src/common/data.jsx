@@ -2,6 +2,7 @@ import { Navigate, NavLink, useNavigate } from 'react-router-dom';
 import Aboutme from '../pages/Aboutme';
 import LandingPage from '../pages/LandingPage';
 import Contactme from '../pages/Contactme';
+import MyServices from '../pages/MyServices';
 
 export const navPages = [
   { path: '/', label: '', description: <LandingPage /> },
@@ -11,6 +12,7 @@ export const navPages = [
     label: 'Projects',
     description: ['My Projects', "Here's a list of my projects."],
   },
+  { path: 'services', label: 'Services', description: <Contactme /> },
   { path: 'contactme', label: 'Contact', description: <Contactme /> },
   // { path: 'techbee', label: 'TechBee' },
 ];
@@ -30,6 +32,11 @@ export const pages = [
     label: 'projects',
     path: 'projects',
     description: ['My Projects', "Here's a list of my projects."],
+  },
+  {
+    label: 'services',
+    path: 'services',
+    description: <MyServices />,
   },
   {
     label: 'contact',

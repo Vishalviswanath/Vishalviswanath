@@ -110,6 +110,7 @@ const Navbar = () => {
             animate={{ x: 0 }}
             exit={{ x: '100%' }}
             transition={{ duration: 0.1 }}
+            style={{ overflow: "hidden" }}
           >
             <div style={{ textAlign: 'right', marginBottom: '10px' }}>
               <motion.button
@@ -127,6 +128,7 @@ const Navbar = () => {
                 display: 'flex',
                 flexDirection: 'column',
                 gap: 20,
+
               }}
             >
               {renderNavItems(true)}

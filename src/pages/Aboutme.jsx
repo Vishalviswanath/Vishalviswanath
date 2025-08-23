@@ -1,11 +1,12 @@
 import React from 'react'
+import { LiaFileDownloadSolid } from 'react-icons/lia'
 
 const Aboutme = () => {
     return (
         <>
 
             <div
-                style={{ padding: "2rem" }}
+                style={{ padding: "2rem", textIndent: "5em" }}
             >
                 <p
                     style={{
@@ -55,88 +56,17 @@ const Aboutme = () => {
                 </p>
             </div>
 
+            <div style={{ width: "100%", textAlign: "right", paddingRight: "2rem" }}>
 
-            <div
-                style={{
-                    display: "grid",
-                    gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",
-                    gap: "1.5rem",
-                    width: "100%",
-                    padding: "2rem"
-                }}
-            >
-                {[
-                    {
-                        title: "UI/UX Design",
-                        desc: "I design responsive, intuitive, and modern interfaces tailored to your audience — using Figma and modern CSS frameworks.",
-                    },
-                    {
-                        title: "Frontend Development",
-                        desc: "Using React.js, I build fast, interactive UIs that deliver seamless user experiences across all devices.",
-                    },
-                    {
-                        title: "Backend Development",
-                        desc: "I develop secure, scalable server-side applications with Node.js, Express, and MongoDB.",
-                    },
-                    {
-                        title: "Full Deployment",
-                        desc: "From domain setup to CI/CD and server configuration — I manage production-grade deployments using VPS, cloud, or PaaS.",
-                    },
-                    {
-                        title: "Deployment & Domain Hosting",
-                        desc: "I handle everything from domain purchase, DNS configuration, SSL setup, and hosting — ensuring your site is live and secure.",
-                    },
-                    {
-                        title: "Freelance Projects",
-                        desc: "Need a custom web solution? I offer freelance development services tailored to your unique needs and timeline.",
-                    },
-                ].map((item, index) => (
-                    <div
-                        key={index}
-                        style={{
-                            backgroundColor: "#fff",
-                            padding: "15px",
-                            borderRadius: "10px",
-                            boxShadow: "0 4px 12px rgba(0,0,0,0.08)",
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            transition: "transform 0.2s ease, box-shadow 0.2s ease",
-                            textAlign: "center",
-                            alignItems: 'center'
-                        }}
-                        onMouseEnter={(e) => {
-                            e.currentTarget.style.transform = "translateY(-5px)";
-                            e.currentTarget.style.boxShadow = "0 8px 20px rgba(0,0,0,0.12)";
-                        }}
-                        onMouseLeave={(e) => {
-                            e.currentTarget.style.transform = "translateY(0)";
-                            e.currentTarget.style.boxShadow = "0 4px 12px rgba(0,0,0,0.08)";
-                        }}
-                    >
-                        <h3
-                            style={{
-                                fontSize: "1rem",
-                                marginBottom: "0.75rem",
-                                color: "#007bff",
-                                textAlign: "center",
-                            }}
-                        >
-                            {item.title}
-                        </h3>
-                        <p
-                            style={{
-                                fontSize: "1rem",
-                                marginBottom: "0",
-                                lineHeight: "1.6",
-                                textWrap: "wrap",
-                                color: "#555",
-                            }}
-                        >
-                            {item.desc}
-                        </p>
+                <button style={{
+                    boxShadow: "none", padding: "10px 20px",
+
+                }}> <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 3 }}>
+
+                        <LiaFileDownloadSolid />
+                        HIRE ME
                     </div>
-                ))}
+                </button>
             </div>
 
 

@@ -38,13 +38,13 @@ const services = [
 
 const MyServices = () => {
     return (
-        <div className="services-section">
-            {/* <h1>My Services</h1>
-            <hr /> */}
+        <div className="services-section" >
+
             <div className="services-grid" style={{
                 height: "100%"
             }}>
                 {services.map((service, index) => (
+
                     <ServiceCard
                         key={index}
                         title={service.title}

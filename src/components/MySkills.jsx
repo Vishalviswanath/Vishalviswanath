@@ -1,7 +1,7 @@
 import React from 'react';
 
 const skills = [
-  { icon: 'public/logos/pngwing.com (0).png' },
+  { icon: '/logos/pngwing.com (0).png' },
   { icon: 'public/logos/pngwing.com (1).png' },
   { icon: 'public/logos/pngwing.com (2).png' },
   { icon: 'public/logos/pngwing.com (3).png' },

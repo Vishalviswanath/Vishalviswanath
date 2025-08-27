@@ -41,6 +41,7 @@ const Skills = () => {
               <img
                 src={skill.icon}
                 alt={`Skill ${index}`}
+loading="lazy"
                 className="w-full h-full object-contain p-2 filter grayscale group-hover:grayscale-0 transition-all duration-300"
               />
             </div>

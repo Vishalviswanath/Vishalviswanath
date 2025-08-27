@@ -95,9 +95,9 @@ const CardCarousel = ({ images, autoplayDelay = 4000, showPagination = true, sho
 
 const CardCarouselDemo = () => {
     const images = [
-        { src: "/projects/p11.png", alt: "Project 1" },
-        { src: "/projects/p11.png", alt: "Project 2" },
-        { src: "/projects/p11.png", alt: "Project 3" },
+        { src: "/projects/p11.png", alt: "Project 1" , links:""},
+        { src: "/projects/p11.png", alt: "Project 2" , links: ""},
+        { src: "/projects/p11.png", alt: "Project 3", links: "https://www.figma.com/proto/OkVQfc9fjOwiBsZRDVTH6v?node-id=1-37" },
     ];
 
     return (

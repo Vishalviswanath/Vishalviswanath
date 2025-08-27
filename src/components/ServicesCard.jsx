@@ -15,7 +15,7 @@ const ServiceCard = ({ title, desc, image }) => {
                 <p>{desc}</p>
             </div>
             <div className="arrow-btn">
-                <GoArrowUpRight size={25} />
+                <GoArrowUpRight size={18} />
             </div>
         </div>
     );

@@ -47,7 +47,7 @@
 
 .image-wrapper {
   position: relative;
-  height: 160px;
+  height: 120px;
   width: 100%;
   overflow: hidden;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -61,6 +61,7 @@
   height: 100%;
   object-fit: cover;
   display: block;
+
 
 }
 
@@ -82,25 +83,28 @@
   text-align: left;
   color: #ddd;
   background-color: var(--color7);
-
+  height: 100%;
 }
 
 
 
 .arrow-btn {
   position: absolute;
-  bottom: 15px;
-  right: 15px;
+  bottom: 12px;
+  right: 12px;
   z-index: 2;
-  background: var(--color3);
+  /* background: var(--color3); */
   border-radius: 50%;
-  width: 45px;
-  height: 45px;
-  color: var(--color8);
+  width: 35px;
+  height: 35px;
+  color: var(--color3);
   display: flex;
   justify-content: center;
   align-items: center;
   transition: all 0.3s ease-in-out;
+  background: var(--color7);
+  box-shadow: inset 14px 14px 28px #49190c, inset -14px -14px 28px #6d2512;
+
 }
 
 .card:hover .arrow-btn {

@@ -3,6 +3,7 @@ import Aboutme from '../pages/Aboutme';
 import LandingPage from '../pages/LandingPage';
 import Contactme from '../pages/Contactme';
 import MyServices from '../pages/MyServices';
+import MyProjects from '../pages/MyProjects';
 
 export const navPages = [
   { path: '/', label: '', description: <LandingPage /> },
@@ -31,7 +32,7 @@ export const pages = [
   {
     label: 'projects',
     path: 'projects',
-    description: ['My Projects', "Here's a list of my projects."],
+    description: <MyProjects />,
   },
   {
     label: 'services',

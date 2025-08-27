@@ -28,7 +28,7 @@ const Index = () => {
         <section className='page-description'>
           {Array.isArray(page.description) ? (
             page.description.map((list, i) => (
-              <motion.div key={i}>{list}</motion.div>
+              <motion.div key={i} style={{ height: "100%" }}>{list}</motion.div>
             ))
           ) : (
             <motion.div>

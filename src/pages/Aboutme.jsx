@@ -1,5 +1,6 @@
 import React from 'react'
 import { LiaFileDownloadSolid } from 'react-icons/lia'
+import MySkills from '../components/MySkills'
 
 const Aboutme = () => {
     return (
@@ -54,6 +55,10 @@ const Aboutme = () => {
                     exploring new tools and best practices to keep my work at the cutting edge.
                     Let’s work together to turn your ideas into reality!
                 </p>
+            </div>
+
+            <div>
+                <MySkills />
             </div>
 
             <div style={{ width: "100%", textAlign: "right", paddingRight: "2rem" }}>

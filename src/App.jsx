@@ -5,8 +5,16 @@ import Index from "./components/Index";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import ReactGA from "react-ga4";
 
 function App() {
+
+  useEffect(() => {
+    ReactGA.initialize("G-3Z8C96ZCLM");
+    ReactGA.send({ hitType: "pageview", page: window.location.pathname, title: "App.jsx" });
+
+  }, [])
+
   useEffect(() => {
     AOS.init({
       duration: 800,
